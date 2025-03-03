@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Poppins", serif;
+}
+
+@media (max-width: 425px) {
+  body {
+    padding: 30px;
+    overflow: hidden;
+  }
+
+  .mainDiv {
+    justify-content: flex-start;
+  }
+
+  .c-1 {
+    height: 50px;
+    margin-top: 100px;
+  }
+
+  .ph {
+    width: 250px;
+    font-size: 21px;
+  }
+
+  .saves{
+    width: 350px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .buttons{
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .c-2{
+    flex-direction: column;
+    padding: 15px 0px 10px 0px;
+
+  }
+
+  .todo{
+    font-size: 18px;
+  }
+
+}
